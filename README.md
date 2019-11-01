@@ -17,4 +17,4 @@ Added docker functionality to https://github.com/pact-foundation/pact-provider-v
 ```pact-provider-verifier test-body.json --provider-base-url https://someurl.com --custom-provider-header "Authorization: Bearer ydnchdkry9YaqeiESgIGfSLzPW5fCK0q"```
 
 # execute all pacts in folder (inside container)
-```/verify-folder.sh pacts "--provider-base-url http://elixir-base:80 --custom-provider-header \"Authorization: Bearer ydnchdkry9YaqeiESgIGfSLzPW5fCK0q\""```
+```verify-folder.sh pacts http://elixir-base:80 ydnchdkry9YaqeiESgIGfSLzPW5fCK0q```
