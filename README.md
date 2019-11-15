@@ -3,6 +3,8 @@ Added docker functionality to https://github.com/pact-foundation/pact-provider-v
 
 Pull: docker pull felipelopezhamann/pact-provider-verifier-docker:VERSION
 
+Dockerhub: https://hub.docker.com/repository/docker/felipelopezhamann/pact-provider-verifier-docker
+
 # Create docker image
 ```docker build -t pact-verifier .```
 
